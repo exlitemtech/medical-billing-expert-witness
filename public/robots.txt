@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://medicalbillingexpertwitness.com/sitemap.xml
+
+# Block common unwanted paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /private/
+
+# Allow important paths for SEO
+Allow: /services
+Allow: /experts
+Allow: /contact
