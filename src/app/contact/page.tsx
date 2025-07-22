@@ -1,13 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Request Medical Billing Expert Witness | 24-Hour Response",
-  description: "Request a certified medical billing expert witness for your litigation case. Fast 24-hour response, nationwide coverage, and court-qualified CPC experts for healthcare litigation.",
-  keywords: "request medical billing expert witness, hire coding expert witness, medical billing litigation expert, healthcare fraud expert witness, CPC expert testimony",
-};
 
 export default function Contact() {
   const [formData, setFormData] = useState({
